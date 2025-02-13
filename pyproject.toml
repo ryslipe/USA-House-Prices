@@ -8,6 +8,12 @@ packages = [{include = "usa_house_prices"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+jupyter = "^1.1.1"
+pandas = "^2.2.3"
+numpy = "^2.2.2"
+seaborn = "^0.13.2"
+matplotlib = "^3.10.0"
+plotly = "^6.0.0"
 
 [build-system]
 requires = ["poetry-core"]
